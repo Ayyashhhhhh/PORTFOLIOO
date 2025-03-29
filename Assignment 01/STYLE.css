@@ -1,0 +1,677 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+    padding: 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 50px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4facfe;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #4facfe;
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+/* Subheading */
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+/* About Me Section */
+h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+h3 b i {
+    display: block;
+    text-align: justify;
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h3 b i {
+        width: 90%;
+    }
+}
+/* Style for all headings to be uppercase */
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Styling */
+.footer {
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Deep blue gradient */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    width: 100%; /* Full-width footer */
+    border-radius: 0; /* No curve */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Footer Hover Effect */
+.footer:hover {
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0px -4px 15px rgba(0, 0, 0, 0.2); /* Reduced glow */
+    background: linear-gradient(to right, #2a5298, #1e3c72); /* Reverse gradient on hover */
+}
+
+/* Copyright Text */
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Social Links Container */
+.social-links {
+    margin-top: 10px;
+}
+
+/* Social Links Styling */
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for Links */
+.social-links a:hover {
+    color: #1e3c72;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.4); /* Reduced glow */
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+
+    .social-links a {
+        margin: 5px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Deep blue gradient */
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Individual Links */
+.nav-links li {
+    display: inline-block;
+}
+
+/* Link Styling */
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Link Hover Effect */
+.nav-links a:hover {
+    background-color: #fff;
+    color: #1e3c72;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.4); /* Soft glow */
+    transform: translateY(-2px); /* Slight lift */
+}
+
+/* Active Page Effect */
+.nav-links a:active {
+    background-color: #ff9800; /* Orange for active click */
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        padding: 10px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Page Styling */
+.contact-container {
+    text-align: left; /* Align everything to the left */
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+h3 {
+    text-align: left; /* Align heading to the left */
+    font-size: 24px;
+    color: #1E3C72; /* Navy Blue for heading */
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h4 {
+    text-align: left; /* Align text to the left */
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333333; /* Dark Gray for text */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    background: linear-gradient(to right, #f5f5f5, #eaeaea); /* Soft gray gradient */
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Image */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Main Heading (H1) */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1E3C72; /* Navy Blue */
+    margin-top: 10px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Subheading (H2) */
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #4B4B4B; /* Dark Gray */
+    margin-top: 5px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/* About Me Section */
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #2A5298; /* Royal Blue */
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+/* About Me Content */
+h3 b i {
+    display: block;
+    text-align: justify;
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #333333; /* Charcoal color */
+    line-height: 1.8;
+    background-color: #FAF9F6; /* Soft beige background */
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover Effect for About Me Box */
+h3 b i:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    h3 b i {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    background: #87CEEB; /* Sky Blue background */
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Image */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Main Heading (H1) */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1E3C72; /* Navy Blue */
+    margin-top: 10px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Subheading (H2) */
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #4B4B4B; /* Dark Gray */
+    margin-top: 5px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/* About Me Section */
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #2A5298; /* Royal Blue */
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+/* About Me Content */
+h3 b i {
+    display: block;
+    text-align: justify;
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #333333; /* Charcoal color */
+    line-height: 1.8;
+    background-color: #FAF9F6; /* Soft beige background */
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover Effect for About Me Box */
+h3 b i:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    h3 b i {
+        width: 90%;
+    }
+}
+
+
+
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    background: #87CEEB; /* Sky Blue background */
+    color: #333333;
+    padding: 40px 20px;
+}
+
+/* Main Heading (H2) */
+h2 {
+    text-align: left;
+    font-size: 28px;
+    color: #1E3C72; /* Navy Blue */
+    margin-top: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for H2 */
+h2:hover {
+    color: #4169E1; /* Royal Blue */
+    transform: translateX(5px);
+    text-decoration: underline;
+}
+
+/* Subheading (H3) */
+h3 {
+    text-align: left;
+    font-size: 18px;
+    color: #4B4B4B; /* Dark Gray */
+    margin-top: 10px;
+    line-height: 1.8;
+    font-weight: 500;
+    background-color: #FAF9F6; /* Soft beige background */
+    padding: 12px 20px;
+    border-left: 5px solid #2ECC71; /* Emerald Green border on the left */
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Styling for Important Text */
+h3 strong {
+    color: #333333;
+    font-weight: 600;
+}
+
+/* Add Some Space Between Sections */
+h2 + h3 {
+    margin-top: 5px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
+
+
+
+
+/* Center align "About Me" specifically */
+h1:nth-of-type(1) {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E3C72; /* Navy Blue */
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Make only email and Instagram lowercase */
+h4 br + br::before {
+    content: "E-mail: ayyashabdulla19@gmail.com\ninstagram: ayyash.photos";
+    display: block;
+    text-transform: lowercase;
+    white-space: pre-wrap;
+}
+

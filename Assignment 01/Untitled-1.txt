@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet"href="style.css"
+</head>
+<body>
+   <h2>Programming & Development</h2> 
+   <h3>Proficiency in languages like Python, Java, C++, or JavaScript<br>
+    Understanding of data structures and algorithms<br>
+    Object-oriented programming (OOP) principles<br>
+    Software development methodologies (Agile, Git, version control)</h3>
+    <h2>Web Development (Frontend Focused)</h2>
+    <h3>Strong knowledge of HTML, CSS, and JavaScript<br>
+        Experience with responsive design and CSS frameworks (Bootstrap, Tailwind)<br>
+        JavaScript concepts like DOM manipulation, ES6+, and event handling<br>
+        Working with APIs and AJAX for dynamic web applications</h3>
+    <h2>Computer Science Fundamentals</h2> 
+    <h3>Operating systems concepts (memory management, threading)<br>
+        Database management (SQL, NoSQL basics)<br>
+        Basic networking concepts (HTTP, TCP/IP)<br>
+        Cybersecurity awareness (authentication, encryption basics)</h3>
+    <h2>Tools & Technologies</h2>
+    <h3>Familiarity with Git & GitHub for version control<br>
+        Using code editors/IDEs like VS Code, IntelliJ, or Eclipse<br>
+        Debugging skills and using browser developer tools</h3>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet"href="style.css"
+</head>
+<body>
+    <h3>Contact Details</h3>
+    <h4>Phone number: 8129480447<br>
+        E-mail:asiya9876@gmail.com
+    </h4>
+    
+</body>
+</html>
